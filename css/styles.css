@@ -1,0 +1,165 @@
+body {
+  font-family: 'Montserrat'sans-serif, ;
+  text-align: center
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+p{
+  color: #8f8f8f;
+}
+/* Sections */
+.colored-section{
+background-color: #ff4c68;
+color: white;
+}
+.white-section{
+background-color: white;
+}
+/* Headings */
+.main-heading{
+  font-weight: 900;
+  line-height: 1.5;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title */
+.donwload-button {
+  margin: 5% 3% 5% 0;
+}
+
+.tindog-phone-img {
+  transform: rotate(25deg);
+  width: 50%;
+  height: auto;
+  position: absolute;
+  right: 30%;
+}
+
+#title {
+  text-align: left;
+}
+@media (max-width :1028px) {
+#title{
+  text-align: center;
+}
+
+.tindog-phone-img{
+  position: static;
+  transform: rotate(0);
+}
+}
+@media (min-width: 1350px) {
+  .tindog-phone-img{
+    width: 40%
+  }
+
+}
+/* Nav Bar  */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: 3px 3px 3px #aaa;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+/* Features */
+.features-paragraph{
+  color: #8f8f8F;
+}
+
+.features-box{
+  padding: 7% 10%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+.features-image{
+  color: #ef8172;
+  padding: 10px;
+}
+.features-image:hover{
+  color: #ff4c68;
+}
+.features-titles{
+  font-size: 1.5rem;
+}
+
+/* Testimonials */
+
+#testimonials{
+  background-color: #ef8172;
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+/* Press */
+#press{
+  padding-bottom: 3%;
+  background-color: #ef8172;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* Pricing */
+#pricing{
+  padding: 100px;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+.pricing-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-titles{
+  font-size: 1.5rem;
+}
+
+/* Call to Action */
+#cta{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.cta-text{
+  font-size: 2.5rem;
+  padding: 10% 10% 0;
+}
+/* Footer */
+#footer{
+  background-color: white;
+  padding: 50px;
+}
+.footer-img{
+  padding: 0 10px 10px;
+}
